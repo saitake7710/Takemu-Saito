@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+  header {
+    max-width: 1000px;
+    width: 100%;
+  }
+}
+
+/* モバイル向けレイアウト */
+@media (max-width: 670px) {
+  footer {
+
+  }
+}
