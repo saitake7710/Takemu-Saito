@@ -5,11 +5,68 @@
     max-width: 1000px;
     width: 100%;
   }
+  .about {
+    padding: 0!important;
+  }
+  .contact h3 {
+    font-size: 16px;
+  }
 }
 
 /* モバイル向けレイアウト */
 @media (max-width: 670px) {
-  footer {
+  header {
+    max-width: 670px;
+    width: 100%;
+  }
+  nav {
+    height: 55px;
+  }
+  nav ul {
+    font-size: 12px;
+  }
+  .header-inner img {
+    max-width: 670px;
+    height: 300px;
+    padding: 0;
+    width: 100%;
+}
+.about-sentence {
+    margin: 3em 0 0 0;
+}
+.skills {
+  height: 1000px;
+}
+.skills .inner {
+    max-width: 670px;
+    width: 70%;
+    margin: 0 0 0 100px;
+    height: 90%;
+}
 
+element.style {
+    top: -40px;
+}
+.skills button:nth-child(1) {
+    left: 1.06%;
+}
+.skills button {
+    display: block;
+    width: 62%;
+    height: 20%;
+    padding: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #01b169;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+  .contact h3 {
+    font-size: 12px;
+    width: 50%;
+  }
+  footer {
+    text-align: center;
   }
 }

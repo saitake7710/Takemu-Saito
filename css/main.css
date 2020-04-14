@@ -79,40 +79,42 @@ header {
 .skills h2 {
   color: #fff;
 }
+
 .skills .inner {
     position: relative;
     max-width: 1349px;
     width: 70%;
     margin: 0 auto;
+    height: 100%
 }
 
 .skills button {
     display: block;
     position: absolute;
-    width: 173px;
-    height: 173px;
+    width: 18.32%;
+    height: 40%;
     padding: 0;
     font-size: 24px;
     letter-spacing: 1px;
     color: #01b169;
     background-color: #fff;
     border: none;
-    border-radius: 112px;
+    border-radius: 50%;
 }
 .skills button:nth-child(1) {
-    left: 10px;
+    left: 1.06%;
 }
 .skills button:nth-child(2) {
-    left: 193px;
+    left: 20.44%;
 }
 .skills button:nth-child(3) {
-    left: 376px;
+    left: 39.82%;
 }
 .skills button:nth-child(4) {
-    left: 559px;
+    left: 59.2%;
 }
 .skills button:nth-child(5) {
-    left: 742px;
+    left: 78.58%;
 }
 .skills button:focus{
   outline: none;
