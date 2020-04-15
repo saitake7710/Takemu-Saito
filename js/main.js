@@ -1,5 +1,23 @@
 $(function(){
-
+  if (window.matchMedia( "(max-width: 670px)" ).matches) {
+  var duration = 300;
+  $('.inner button').each(function(index){
+      var pos = index * 180 - 40;
+      $(this).css('top', pos);
+  })
+  .on('mouseover', function(){
+      $(this).stop(true).animate({
+          backgroundColor: '#faee00',
+          color: '#000'
+      }, duration);
+  })
+  .on('mouseout', function(){
+      $(this).stop(true).animate({
+          backgroundColor: '#fff',
+          color: '#01b169',
+      }, duration);
+  });
+} else {
     var duration = 300;
 
     $('.inner button').each(function(index){
@@ -18,6 +36,8 @@ $(function(){
             color: '#01b169',
         }, duration);
     });
+  };
+
 });
 
 $(function(){
